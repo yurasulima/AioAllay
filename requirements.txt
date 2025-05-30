@@ -1,0 +1,2 @@
+pydantic~=2.11.5
+aiohttp~=3.12.4
