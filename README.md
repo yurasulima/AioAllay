@@ -1,7 +1,7 @@
 AioAllay WIP
 
 
-> 🌐 [English](./README.en.md) | 🇺🇦 [Українська](./README.uk.md)
+> 🌐 [English](https://github.com/yurasulima/AioAllay/blob/main/README.en.md) | 🇺🇦 [Українська](https://github.com/yurasulima/AioAllay/blob/main/README.uk.md)
 
 AioAllay is an asynchronous client for interacting with the [Dangerous](https://mblueberry.fun) Minecraft Bedrock server API.
 
