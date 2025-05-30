@@ -6,7 +6,7 @@ from aioallay.types import *
 
 
 class Client:
-    base_url = "https://dev.mblueberry.fun"
+    base_url = "https://api.mblueberry.fun"
 
     def __init__(self, token: str):
         self.token = token
