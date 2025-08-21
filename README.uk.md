@@ -5,7 +5,7 @@ AioAllay WIP
 
 
 
-AioAllay — це асинхронний клієнт для взаємодії з API майнкрафт бедрок сервера [Dangerous](https://mblueberry.fun).
+AioAllay — це асинхронний клієнт для взаємодії з API майнкрафт бедрок сервера [Dangerous](https://mblueberry.space).
 
 Можливості
 
