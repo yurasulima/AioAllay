@@ -6,28 +6,32 @@ from pydantic import BaseModel
 from aioallay.types.BankCard import BankCard
 from aioallay.types.CityOrder import CityOrder
 from aioallay.types.GameProfile import GameProfile
+from aioallay.types.Skin import Skin
 
 
 class User(BaseModel):
     id: int
     rate: float
-    telegram_id: int
     name: str
-    username: str
-    bio: Optional[str]
     age: int
     sex: str
-    city_weather: Optional[str]
+    bio: Optional[str]
     country: str
-
-    is_deleted: bool
-    is_premium: bool
-    is_bot: bool
+    username: str
+    skin: Skin
     create_at: datetime
+    telegram_id: int
+    is_activated: bool
+    is_banned: bool
+    city_region: str
+    is_bot: bool
+    is_premium: bool
+    city_weather: Optional[str]
     birthday_at: Optional[datetime]
     game_profiles: List[GameProfile]
     bank_cards: List[BankCard]
     city_orders: List[CityOrder]
+    skins: List[Skin]
 
     def get_gp(self, xbox: str) -> GameProfile:
         for game_profile in self.game_profiles:
